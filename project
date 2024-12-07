@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .projects .project {
+            display: flex;
+            margin-bottom: 1.5rem;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .projects img {
+            width: 150px;
+            height: 100px;
+            margin-right: 1rem;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .project-info {
+            max-width: 100%;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my personal portfolio website!</p>
+</header>
+
+<div class="container">
+    <section class="about">
+        <h2><u>About Me</u></h2>
+        <p><b>Hi everybody!</b> Allow me to Introduce myself, 
+            My Name is Nafis Aufa Saif Azzujaj, 
+            I am a Student at The Muhammadiyah University of Malang.
+            My Interests Include Web Development, Graphic Design, And Content Writing.</p>
+    </section>
+
+    <section class="projects">
+        <h2><u>My Projects</u></h2>
+        <div class="project">
+            <img src="https://via.placeholder.com/150" alt="Project Image">
+            <div class="project-info">
+                <h3>Project Title 1</h3>
+                <p>Description of the project goes here. This can include the technologies used and the purpose of the project.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/150" alt="Project Image">
+            <div class="project-info">
+                <h3>Project Title 2</h3>
+                <p>Description of the project goes here. This can include the technologies used and the purpose of the project.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2><u>Contact Me</u></h2>
+        <p>If you'd like to work with me or have any questions, feel free to reach out!</p>
+        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+        <a href="https://www.instagram.com/">
+        <img src="Instagram_logo_2022.svg.webp" alt="instagram" width="30"></a>
+        <p><a href="https://myaccount.google.com/email?utm_source=google-account&%3Butm_medium=web&%3Bhl=en&hl=id">
+            <img src="Gmail_icon_(2020).svg.png" alt="gmail" width="30">
+        </a></p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Nafis Aufa Saif Azzujaj. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
